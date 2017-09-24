@@ -1,0 +1,56 @@
+/* orange : #f17536 */
+body{
+	background-image: url("home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+#main li{
+	list-style: none;
+	list-style-image: url("patte.png");
+}
+
+.bg-pachas {
+	background-color: #f17536;
+}
+
+.dropdown-menu{
+	background-color: #f17536;
+	border: 1px solid #fff;
+}
+
+.dropdown-menu a{
+	color: #fff;
+}
+
+.navbar .navbar-brand h1{
+	font-family: "KG Happy";
+	/* font-size: 3.5em; */
+	font-weight: 400;
+}
+
+.navbar .nav-link, #main .lead {
+	font-weight: bold;
+	font-family: "Lobster";
+	font-size: 1.5em;
+}
+
+#main .lead{
+	font-weight: 300;
+	font-family: "Lobster";
+	font-size: 2em;
+	line-height: 1.6;
+	text-shadow: 0 0 4px #4E3D28;
+}
+
+.navbar .nav-item.active .nav-link{
+	/* color: #fff !important; */
+}
+
+@font-face {
+	font-family: "KG Happy";
+	src: url("KGHAPPY.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
